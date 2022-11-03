@@ -337,18 +337,12 @@ button {
   padding-top: 30px;
 }
 
-.igor-demyanenko .card-title,
-.olga-repina .card-title,
-.mykola-tarasov .card-title,
-.myhaylo-ermakov .card-title {
+.members .card-title {
   margin-bottom: 10px;
-  padding-top: 30px;
 }
 
-.igor-demyanenko .card-description,
-.olga-repina .card-description,
-.mykola-tarasov .card-description,
-.myhaylo-ermakov .card-description {
+.members {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -399,20 +393,18 @@ button {
 }
 
 .project .card-title {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
   margin-bottom: 4px;
 }
 
-.project .card-description {
+.project {
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  padding-bottom: 20px;
 }
 
 .card-title > .card-description {
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .filter-list.list {
